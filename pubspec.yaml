@@ -70,6 +70,9 @@ dependencies:
   http: ^1.5.0
   image: ^4.2.0  # 이미지 처리 라이브러리
   crypto: ^3.0.6
+
+  # 네트워크
+  connectivity_plus: ^6.0.5
   
   # Supabase
   supabase_flutter: ^2.8.0

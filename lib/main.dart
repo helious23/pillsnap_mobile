@@ -14,7 +14,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // .env 파일 로드 (가장 먼저!)
-  await dotenv.load(fileName: ".env");
+  await dotenv.load(fileName: '.env');
 
   // 한국어 날짜 포맷 초기화
   await initializeDateFormatting('ko_KR', null);
@@ -24,12 +24,8 @@ void main() async {
 
   // API 클라이언트 초기화
   await PillSnapAPIClient().initialize();
-  
-  runApp(
-    const ProviderScope(
-      child: MyApp(),
-    ),
-  );
+
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends ConsumerStatefulWidget {
@@ -42,23 +38,23 @@ class MyApp extends ConsumerStatefulWidget {
 class _MyAppState extends ConsumerState<MyApp> {
   late final AppLinks _appLinks;
   StreamSubscription<Uri>? _linkSubscription;
-  
+
   @override
   void initState() {
     super.initState();
     _initAppLinks();
   }
-  
+
   @override
   void dispose() {
     _linkSubscription?.cancel();
     super.dispose();
   }
-  
+
   /// 딥링크 처리 (app_links 패키지 사용)
   Future<void> _initAppLinks() async {
     _appLinks = AppLinks();
-    
+
     // 앱이 종료 상태에서 링크로 시작된 경우
     try {
       final initialUri = await _appLinks.getInitialLink();
@@ -69,7 +65,7 @@ class _MyAppState extends ConsumerState<MyApp> {
       // 초기 링크 처리 실패는 무시
       debugPrint('Initial deep link failed: $e');
     }
-    
+
     // 앱이 실행 중일 때 링크 처리
     _linkSubscription = _appLinks.uriLinkStream.listen(
       (Uri uri) async {
@@ -85,7 +81,7 @@ class _MyAppState extends ConsumerState<MyApp> {
   @override
   Widget build(BuildContext context) {
     final router = ref.watch(appRouterProvider);
-    
+
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'PillSnap',
