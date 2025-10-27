@@ -80,6 +80,9 @@ dependencies:
   # 딥링크
   app_links: ^6.3.2
   url_launcher: ^6.3.1
+
+  # 환경변수 관리
+  flutter_dotenv: ^5.1.0
   
   # 캘린더
   table_calendar: ^3.1.2
@@ -140,6 +143,7 @@ flutter:
     - assets/icons/app_icon.jpeg
     - assets/10-1.single_camera_info.png
     - assets/10-2.combination_camera_info.png
+    - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

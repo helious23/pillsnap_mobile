@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:pillsnap/core/utils/image_processor.dart';
+import 'package:pillsnap/core/config/app_config.dart';
 
 /// PillSnap API 클라이언트
 class PillSnapAPIClient {
@@ -10,15 +11,9 @@ class PillSnapAPIClient {
   factory PillSnapAPIClient() => _instance;
   PillSnapAPIClient._internal();
 
-  // dart-define으로 전달된 환경변수 사용 (기본값 제공)
-  static const String _baseUrl = String.fromEnvironment(
-    'API_URL',
-    defaultValue: 'https://api.pillsnap.co.kr',
-  );
-  static const String _apiKey = String.fromEnvironment(
-    'API_KEY',
-    defaultValue: '', // .env 파일 또는 --dart-define으로 주입 필요
-  );
+  // .env 파일에서 로드
+  static String get _baseUrl => AppConfig.apiUrl;
+  static String get _apiKey => AppConfig.apiKey;
   
   /// API 클라이언트 초기화
   Future<void> initialize() async {

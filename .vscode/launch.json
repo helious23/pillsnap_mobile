@@ -6,42 +6,21 @@
       "request": "launch",
       "type": "dart",
       "flutterMode": "debug",
-      "program": "lib/main.dart",
-      "args": [
-        "--dart-define=API_URL=https://api.pillsnap.co.kr",
-        "--dart-define=API_KEY=${env:API_KEY}",
-        "--dart-define=SUPABASE_URL=${env:SUPABASE_PROJECT_URL}",
-        "--dart-define=SUPABASE_ANON_KEY=${env:SUPABASE_ANON_KEY}",
-        "--dart-define=DEBUG=true"
-      ]
+      "program": "lib/main.dart"
     },
     {
       "name": "PillSnap (Profile)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile",
-      "program": "lib/main.dart",
-      "args": [
-        "--dart-define=API_URL=https://api.pillsnap.co.kr",
-        "--dart-define=API_KEY=${env:API_KEY}",
-        "--dart-define=SUPABASE_URL=${env:SUPABASE_PROJECT_URL}",
-        "--dart-define=SUPABASE_ANON_KEY=${env:SUPABASE_ANON_KEY}",
-        "--dart-define=DEBUG=true"
-      ]
+      "program": "lib/main.dart"
     },
     {
       "name": "PillSnap (Release)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release",
-      "program": "lib/main.dart",
-      "args": [
-        "--dart-define=API_URL=https://api.pillsnap.co.kr",
-        "--dart-define=API_KEY=${env:API_KEY}",
-        "--dart-define=SUPABASE_URL=${env:SUPABASE_PROJECT_URL}",
-        "--dart-define=SUPABASE_ANON_KEY=${env:SUPABASE_ANON_KEY}",
-        "--dart-define=DEBUG=true"
-      ]
+      "program": "lib/main.dart"
     }
   ]
 }

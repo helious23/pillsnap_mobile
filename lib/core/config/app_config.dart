@@ -1,25 +1,19 @@
-/// Supabase 앱 설정
-/// --dart-define으로 환경변수 주입 또는 기본값 사용
-class AppConfig {
-  // Supabase 설정 (--dart-define으로 주입, 없으면 기본값)
-  static const String supabaseUrl = String.fromEnvironment(
-    'SUPABASE_URL',
-    defaultValue: '', // .env 파일 또는 --dart-define으로 주입 필요
-  );
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-  static const String supabaseAnonKey = String.fromEnvironment(
-    'SUPABASE_ANON_KEY',
-    defaultValue: '', // .env 파일 또는 --dart-define으로 주입 필요
-  );
-  
+/// Supabase 앱 설정
+/// .env 파일에서 환경변수 로드
+class AppConfig {
+  // Supabase 설정 (.env 파일에서 로드)
+  static String get supabaseUrl => dotenv.env['SUPABASE_PROJECT_URL'] ?? '';
+  static String get supabaseAnonKey => dotenv.env['SUPABASE_ANON_KEY'] ?? '';
+  static String get apiUrl => dotenv.env['API_URL'] ?? 'https://api.pillsnap.co.kr';
+  static String get apiKey => dotenv.env['API_KEY'] ?? '';
+
   // 딥링크 설정
   static const String appScheme = 'pillsnap';
   static const String authCallbackPath = 'auth-callback';
   static const String authCallbackUrl = '$appScheme://$authCallbackPath';
-  
+
   // 개발/프로덕션 환경 플래그
-  static const bool isDebug = bool.fromEnvironment(
-    'DEBUG',
-    defaultValue: true,
-  );
+  static bool get isDebug => dotenv.env['DEBUG']?.toLowerCase() == 'true';
 }

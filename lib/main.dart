@@ -7,17 +7,21 @@ import 'package:pillsnap/theme/app_theme.dart';
 import 'package:pillsnap/core/network/api_client.dart';
 import 'package:pillsnap/core/services/supabase_service.dart';
 import 'package:app_links/app_links.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'dart:async';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
+  // .env 파일 로드 (가장 먼저!)
+  await dotenv.load(fileName: ".env");
+
   // 한국어 날짜 포맷 초기화
   await initializeDateFormatting('ko_KR', null);
-  
+
   // Supabase 초기화
   await SupabaseService.initialize();
-  
+
   // API 클라이언트 초기화
   await PillSnapAPIClient().initialize();
   
