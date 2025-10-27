@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appTitle": "PillSnap",
+  "loading_analyzing": "Analyzing...",
+  "loading_identifyingMedicine": "Identifying medicine",
+  "camera_captureGuide": "Position the pill in\nthe center of crosshair",
+  "camera_singleMode": "Single Capture",
+  "camera_multiMode": "Multi Capture",
+  "home_welcome": "Welcome!",
+  "home_recentCaptures": "Recent Captures",
+  "auth_login": "Login",
+  "auth_signup": "Sign Up",
+  "auth_emailPlaceholder": "Enter your email",
+  "auth_passwordPlaceholder": "Enter your password",
+  "common_next": "Next",
+  "common_skip": "Skip",
+  "common_confirm": "Confirm",
+  "common_cancel": "Cancel"
+}

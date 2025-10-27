@@ -1,0 +1,87 @@
+{
+  "generated": "2025-09-03T14:50:00",
+  "version": "v3",
+  "files": [
+    {
+      "path": "docs/IMAGE_OPTIMIZATION_GUIDE.md",
+      "mtime": "2025-09-03T14:46:28",
+      "size": 13888,
+      "keywords": ["이미지최적화", "EXIF회전", "추론서버", "전처리"]
+    },
+    {
+      "path": "docs/API_INTEGRATION.md",
+      "mtime": "2025-09-03T13:50:52",
+      "size": 16483,
+      "keywords": ["API연동", "X-Api-Key", "pillsnap.co.kr", "백엔드"]
+    },
+    {
+      "path": "docs/CLAUDE_MEMORY.md",
+      "mtime": "2025-09-03T11:05:10",
+      "size": 1675,
+      "keywords": ["절대수칙", "withOpacity금지", "즉시실행", "핵심규칙"]
+    },
+    {
+      "path": "docs/_generated/init-index-v2.json",
+      "mtime": "2025-09-03T11:01:26",
+      "size": 1735,
+      "keywords": ["파일인덱스", "메타데이터"]
+    },
+    {
+      "path": "docs/_generated/INIT_2025-09-03_v2.md",
+      "mtime": "2025-09-03T11:00:53",
+      "size": 8640,
+      "keywords": ["아키텍처규칙", "충돌감지", "Phase계획"]
+    },
+    {
+      "path": "docs/_generated/init-index.json",
+      "mtime": "2025-09-03T10:20:44",
+      "size": 1613,
+      "keywords": ["파일인덱스", "v1"]
+    },
+    {
+      "path": "docs/_generated/INIT_2025-09-03.md",
+      "mtime": "2025-09-03T10:20:06",
+      "size": 14542,
+      "keywords": ["초기온보딩", "아키텍처", "마이그레이션"]
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "mtime": "2025-09-03T09:56:30",
+      "size": 11481,
+      "keywords": ["Feature-first", "Clean Architecture", "Riverpod", "폴더구조"]
+    },
+    {
+      "path": "docs/PROGRESS_2025-09-03.md",
+      "mtime": "2025-09-03T09:54:39",
+      "size": 6482,
+      "keywords": ["Phase진행", "40%완료", "카메라완료", "Drug대기"]
+    },
+    {
+      "path": "docs/flutter_architecture_guide_2025-09-02.md",
+      "mtime": "2025-09-02T19:01:19",
+      "size": 26098,
+      "keywords": ["구현패턴", "UseCase", "테스트전략", "코드예시"]
+    },
+    {
+      "path": "docs/pillsnap_migration_plan_2025-09-03.md",
+      "mtime": "2025-09-03T00:55:31",
+      "size": 14568,
+      "keywords": ["10단계Phase", "마이그레이션", "체크리스트", "일정"]
+    }
+  ],
+  "summary": {
+    "total_files": 11,
+    "total_size": 117533,
+    "architecture_docs": 3,
+    "progress_docs": 2,
+    "guide_docs": 3,
+    "generated_docs": 3
+  },
+  "priorities": [
+    "ARB 파일 생성 및 i18n 설정",
+    "withOpacity → withValues 전체 교체",
+    "route_paths.dart 생성",
+    "API 키 설정 및 연동",
+    "Drug Detail 구현 (Phase 5)"
+  ]
+}

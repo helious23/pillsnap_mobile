@@ -1,0 +1,82 @@
+{
+  "@@locale": "ko",
+  "appTitle": "PillSnap",
+  "@appTitle": {
+    "description": "앱 제목"
+  },
+  
+  "loading_analyzing": "분석 중...",
+  "@loading_analyzing": {
+    "description": "로딩 화면 - 분석 중 메시지"
+  },
+  
+  "loading_identifyingMedicine": "의약품을 식별하고 있습니다",
+  "@loading_identifyingMedicine": {
+    "description": "로딩 화면 - 약품 식별 중 메시지"
+  },
+  
+  "camera_captureGuide": "알약을 십자선 중앙에\n위치시켜 주세요",
+  "@camera_captureGuide": {
+    "description": "카메라 화면 - 촬영 가이드"
+  },
+  
+  "camera_singleMode": "단일 촬영",
+  "@camera_singleMode": {
+    "description": "카메라 모드 - 단일"
+  },
+  
+  "camera_multiMode": "다중 촬영",
+  "@camera_multiMode": {
+    "description": "카메라 모드 - 다중"
+  },
+  
+  "home_welcome": "안녕하세요!",
+  "@home_welcome": {
+    "description": "홈 화면 - 환영 메시지"
+  },
+  
+  "home_recentCaptures": "최근 촬영",
+  "@home_recentCaptures": {
+    "description": "홈 화면 - 최근 촬영 섹션"
+  },
+  
+  "auth_login": "로그인",
+  "@auth_login": {
+    "description": "인증 - 로그인"
+  },
+  
+  "auth_signup": "회원가입",
+  "@auth_signup": {
+    "description": "인증 - 회원가입"
+  },
+  
+  "auth_emailPlaceholder": "이메일을 입력하세요",
+  "@auth_emailPlaceholder": {
+    "description": "이메일 입력 필드 플레이스홀더"
+  },
+  
+  "auth_passwordPlaceholder": "비밀번호를 입력하세요",
+  "@auth_passwordPlaceholder": {
+    "description": "비밀번호 입력 필드 플레이스홀더"
+  },
+  
+  "common_next": "다음",
+  "@common_next": {
+    "description": "공통 - 다음 버튼"
+  },
+  
+  "common_skip": "건너뛰기",
+  "@common_skip": {
+    "description": "공통 - 건너뛰기 버튼"
+  },
+  
+  "common_confirm": "확인",
+  "@common_confirm": {
+    "description": "공통 - 확인 버튼"
+  },
+  
+  "common_cancel": "취소",
+  "@common_cancel": {
+    "description": "공통 - 취소 버튼"
+  }
+}

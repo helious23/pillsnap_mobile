@@ -1,0 +1,54 @@
+{
+  "generated": "2025-09-03T15:30:00Z",
+  "totalFiles": 7,
+  "files": [
+    {
+      "path": "docs/CLAUDE_MEMORY.md",
+      "mtime": "2025-09-03T11:01:13Z",
+      "size": 1646,
+      "keywords": ["절대수칙", "즉시실행명령", "withOpacity금지", "진행상태"]
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "mtime": "2025-09-03T09:56:30Z",
+      "size": 11481,
+      "keywords": ["아키텍처", "폴더구조", "라우팅", "상태관리", "테마", "테스트"]
+    },
+    {
+      "path": "docs/PROGRESS_2025-09-03.md",
+      "mtime": "2025-09-03T09:54:39Z",
+      "size": 6482,
+      "keywords": ["phase", "진행상황", "완료작업", "이슈해결", "40%"]
+    },
+    {
+      "path": "docs/_generated/INIT_2025-09-03.md",
+      "mtime": "2025-09-03T11:00:00Z",
+      "size": 14542,
+      "keywords": ["아키텍처규칙", "충돌리포트", "체크리스트", "검토요청"]
+    },
+    {
+      "path": "docs/_generated/INIT_2025-09-03_v2.md",
+      "mtime": "2025-09-03T15:30:00Z",
+      "size": 8321,
+      "keywords": ["아키텍처규칙", "충돌리포트", "체크리스트", "검토요청", "v2"]
+    },
+    {
+      "path": "docs/flutter_architecture_guide_2025-09-02.md",
+      "mtime": "2025-09-03T08:01:19Z",
+      "size": 26098,
+      "keywords": ["clean architecture", "레이어", "구현패턴", "코드예시", "체크리스트"]
+    },
+    {
+      "path": "docs/pillsnap_migration_plan_2025-09-03.md",
+      "mtime": "2025-09-03T00:55:31Z",
+      "size": 14568,
+      "keywords": ["migration", "phase계획", "체크리스트", "예상소요시간", "10단계"]
+    }
+  ],
+  "statistics": {
+    "totalSize": 84740,
+    "avgSize": 12105,
+    "recentlyUpdated": 5,
+    "priorityDocs": 6
+  }
+}

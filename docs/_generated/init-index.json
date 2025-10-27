@@ -1,0 +1,113 @@
+{
+  "generated_at": "2025-09-08T12:00:00+09:00",
+  "total_files": 20,
+  "docs": [
+    {
+      "path": "docs/API_INTEGRATION.md",
+      "mtime": "2025-09-07T21:56:23Z",
+      "size": 21102,
+      "keywords": ["API_연동", "이미지_전처리", "pillsnap.co.kr", "X-Api-Key"]
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "mtime": "2025-09-07T21:55:08Z",
+      "size": 14819,
+      "keywords": ["Feature-first", "Clean_Architecture", "이미지_파이프라인", "레이어"]
+    },
+    {
+      "path": "docs/IMAGE_PREPROCESSING_PIPELINE.md",
+      "mtime": "2025-09-06T19:47:25Z",
+      "size": 6402,
+      "keywords": ["이미지_표준화", "2048px", "JPEG_Q95", "ROI"]
+    },
+    {
+      "path": "docs/CLAUDE_MEMORY.md",
+      "mtime": "2025-09-06T19:30:07Z",
+      "size": 2880,
+      "keywords": ["절대_수칙_10개", "즉시_실행", "Phase_상태", "백엔드_정보"]
+    },
+    {
+      "path": "docs/2025-09-05_implementation_guide.md",
+      "mtime": "2025-09-05T20:32:51Z",
+      "size": 15816,
+      "keywords": ["촬영_내역", "즐겨찾기", "Repository", "Provider"]
+    },
+    {
+      "path": "docs/2025-09-05_remaining_features_implementation.md",
+      "mtime": "2025-09-05T20:30:23Z",
+      "size": 8746,
+      "keywords": ["남은_기능", "구현_가이드", "우선순위"]
+    },
+    {
+      "path": "docs/2025-01-03_signup-flow-fixes.md",
+      "mtime": "2025-09-05T00:36:28Z",
+      "size": 6698,
+      "keywords": ["회원가입_플로우", "에러_처리", "유효성_검사"]
+    },
+    {
+      "path": "docs/2025-09-04_supabase_integration.md",
+      "mtime": "2025-09-04T20:06:07Z",
+      "size": 6002,
+      "keywords": ["Supabase", "인증", "테이블_Phase2", "app_links"]
+    },
+    {
+      "path": "docs/2025-09-04_supabase_schema.md",
+      "mtime": "2025-09-04T19:50:44Z",
+      "size": 17259,
+      "keywords": ["DB_스키마", "마이그레이션", "RLS", "트리거"]
+    },
+    {
+      "path": "docs/camera_modifications_log.md",
+      "mtime": "2025-09-03T23:43:51Z",
+      "size": 4175,
+      "keywords": ["카메라_단순화", "제거_기능", "LensBias", "줌_컨트롤"]
+    },
+    {
+      "path": "docs/IMAGE_OPTIMIZATION_GUIDE.md",
+      "mtime": "2025-09-03T20:46:28Z",
+      "size": 13888,
+      "keywords": ["이미지_최적화", "압축", "캐싱", "성능"]
+    },
+    {
+      "path": "docs/2025-09-03_PROGRESS.md",
+      "mtime": "2025-09-03T10:14:39Z",
+      "size": 6482,
+      "keywords": ["진행률_40%", "Phase_현황", "완료_작업", "다음_단계"]
+    },
+    {
+      "path": "docs/2025-09-02_flutter_architecture_guide.md",
+      "mtime": "2025-09-02T18:54:40Z",
+      "size": 26098,
+      "keywords": ["Layered_Architecture", "구현_패턴", "코드_예시", "체크리스트"]
+    },
+    {
+      "path": "docs/2025-09-03_pillsnap_migration_plan.md",
+      "mtime": "2025-09-03T00:15:31Z",
+      "size": 14568,
+      "keywords": ["마이그레이션", "Phase_계획", "기술_스택", "완료_조건"]
+    }
+  ],
+  "statistics": {
+    "architecture_docs": 5,
+    "integration_docs": 3,
+    "implementation_docs": 3,
+    "progress_docs": 2,
+    "technical_docs": 2,
+    "total_size_bytes": 163935,
+    "phases_completed": ["0", "1", "2", "3", "4", "8"],
+    "phases_in_progress": ["7", "9"],
+    "phases_pending": ["5", "6", "10"],
+    "overall_progress": "70%",
+    "critical_issues": [
+      "route_paths.dart_missing",
+      "camera_실제_촬영_미구현",
+      "drug_detail_페이지_미구현",
+      "withOpacity_교체_필요"
+    ],
+    "resolved_issues": [
+      "supabase_연동_완료",
+      "api_통합_완료",
+      "이미지_전처리_파이프라인_정립"
+    ]
+  }
+}
